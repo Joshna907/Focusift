@@ -11,26 +11,32 @@ export async function POST(req: NextRequest) {
       userId,
       startTime,
       endTime,
-      wasInterrupted,
-      tabSwitchCount,
-      suggestion
+      wasInterrupted = false,
+      tabSwitchCount = 0,
+      suggestion = ''
     } = body;
-const session = await prisma.focusSession.create
-({
+
+    const session = await prisma.focusSession.create({
       data: {
         userId,
         startTime: new Date(startTime),
         endTime: new Date(endTime),
-        wasInterrupted: wasInterrupted ?? false,
-        tabSwitchCount: tabSwitchCount ?? 0,
-        suggestion: suggestion ?? '',
+        wasInterrupted,
+        tabSwitchCount,
+        suggestion,
         createdAt: new Date(),
       },
     });
 
-    return NextResponse.json({ message: 'Session stored successfully', session });
+    return NextResponse.json({
+      message: 'Session stored successfully',
+      session,
+    });
   } catch (error) {
     console.error('Error saving session:', error);
-    return NextResponse.json({ error: 'Failed to save session' }, { status: 500 });
+    return NextResponse.json(
+      { error: 'Failed to save session' },
+      { status: 500 }
+    );
   }
 }
