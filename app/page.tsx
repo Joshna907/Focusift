@@ -101,7 +101,7 @@ export default function Home() {
         <div className="space-x-4">
           {session ? (
             <div className="flex items-center gap-4">
-              <img src={session.user?.image || '/default-avatar.png'} alt="Profile" className="w-8 h-8 rounded-full" />
+              <Image src={session.user?.image || '/default-avatar.png'} alt="Profile" className="w-8 h-8 rounded-full" />
               <span className="text-sm">{session.user?.name}</span>
               <button
                 onClick={() => signOut()}
@@ -154,7 +154,7 @@ export default function Home() {
         <div className="flex gap-6 animate-scroll px-4 w-max whitespace-nowrap mb-5">
           {testimonials.map((t, i) => (
             <div key={i} className="min-w-[250px] max-w-[200px] bg-[#a7e4e4]/10 backdrop-blur-md border border-white/10 p-4 rounded-xl shadow-md text-white whitespace-normal break-words">
-              <img src={t.image} alt={t.name} className="w-10 h-10 rounded-full mb-3 object-cover" />
+              <Image src={t.image} alt={t.name} className="w-10 h-10 rounded-full mb-3 object-cover" />
               <p className="text-sm leading-relaxed mb-3">"{t.message}"</p>
               <h4 className="text-sm font-semibold text-blue-300">— {t.name}</h4>
             </div>
