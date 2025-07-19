@@ -17,3 +17,4 @@ export const authOptions: AuthOptions = {
     },
   },
 };
+export default authOptions;
