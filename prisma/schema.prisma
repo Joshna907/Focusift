@@ -52,3 +52,11 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
+model FocusSession {
+  id        String   @id @default(cuid())
+  userId    String
+  startTime DateTime
+  endTime   DateTime
+
+  user User @relation(fields: [userId], references: [id])
+}
