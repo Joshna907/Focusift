@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import toast, { Toaster } from 'react-hot-toast';
-import techniques from '../components/techniques';
+import techniques from '../data/techniques';
 
 export default function FocusTimerPage() {
   const [seconds, setSeconds] = useState(0);
