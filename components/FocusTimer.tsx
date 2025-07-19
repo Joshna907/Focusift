@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import toast, { Toaster } from 'react-hot-toast';
-import techniques from '../app/data/techniques.json'; // ✅ Corrected path
+import techniques from '../data/techniques.json'; // ✅ Corrected path
 
 export default function FocusTimer() {
   const [seconds, setSeconds] = useState(0);
