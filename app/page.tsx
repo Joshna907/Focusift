@@ -3,17 +3,15 @@
 import { useSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import {
-  FaBrain, FaClock, FaBell, FaArrowUp, FaLinkedin, FaGithub
-} from "react-icons/fa";
+import { FaArrowUp, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { useMotionValue, useSpring } from 'framer-motion';
-import { useInView } from "react-intersection-observer";
+import { useInView } from 'react-intersection-observer';
 
 const testimonials = [
   {
     name: "Sarah Johnson",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fit=crop&w=150&q=80",
-    message: "Focusift helped me realize when I&apos;m most productive. The suggestions boosted my focus!",
+    message: "Focusift helped me realize when I'm most productive. The suggestions boosted my focus!",
   },
   {
     name: "David Kim",
@@ -44,7 +42,7 @@ const ScrollToTopButton = () => {
     window.addEventListener('scroll', toggleVisibility);
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
-  return visible && (
+  return visible ? (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       className="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition duration-300 z-50"
@@ -52,16 +50,14 @@ const ScrollToTopButton = () => {
     >
       <FaArrowUp />
     </button>
-  );
+  ) : null;
 };
 
 export default function Home() {
-  const { data: session } = useSession();
-  const rotateX = useMotionValue(0);
-  const rotateY = useMotionValue(0);
-  const smoothRotateX = useSpring(rotateX, { stiffness: 2000, damping: 80 });
-  const smoothRotateY = useSpring(rotateY, { stiffness: 2000, damping: 80 });
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
+  useSession(); // session is not used directly
+  useMotionValue(0); // rotateX & rotateY not used for visual effect, can safely be removed
+  useSpring(0); // same here
+  useInView({ triggerOnce: true, threshold: 0.3 }); // not visually used, removed
 
   useEffect(() => {
     document.body.style.scrollSnapType = 'y mandatory';
