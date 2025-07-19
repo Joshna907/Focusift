@@ -1,4 +1,3 @@
-// page.tsx
 'use client';
 
 import { useSession } from 'next-auth/react';
@@ -7,7 +6,7 @@ import Image from 'next/image';
 import {
   FaBrain, FaClock, FaBell, FaArrowUp, FaLinkedin, FaGithub
 } from "react-icons/fa";
-import { useMotionValue, useSpring, motion } from 'framer-motion';
+import { useMotionValue, useSpring } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
 
 const testimonials = [
