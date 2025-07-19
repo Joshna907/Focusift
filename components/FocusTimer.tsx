@@ -3,13 +3,19 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import toast, { Toaster } from 'react-hot-toast';
-import techniques from '../data/techniques.json'; // ✅ Corrected path
+import techniques from '../data/techniques.json'; //  Corrected path 
+
+type Technique = {
+  name: string;
+  category: string;
+  description: string;
+};
 
 export default function FocusTimer() {
   const [seconds, setSeconds] = useState(0);
   const [customMinutes, setCustomMinutes] = useState('');
   const [isRunning, setIsRunning] = useState(false);
-  const [suggestedTechnique, setSuggestedTechnique] = useState('');
+  const [suggestedTechnique, setSuggestedTechnique] = useState<Technique | null>(null);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const startTimer = () => {
@@ -95,7 +101,9 @@ export default function FocusTimer() {
       {suggestedTechnique && (
         <div className="mt-6 p-4 bg-blue-50 rounded">
           <h2 className="font-semibold text-lg">Suggested Technique:</h2>
-          <p>{suggestedTechnique}</p>
+          <p className="font-bold">{suggestedTechnique.name}</p>
+          <p>{suggestedTechnique.category}</p>
+          <p className="text-gray-700 italic">{suggestedTechnique.description}</p>
         </div>
       )}
     </div>
