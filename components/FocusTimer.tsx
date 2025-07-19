@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import toast, { Toaster } from 'react-hot-toast';
 import techniques from '../app/techniques';
@@ -15,6 +15,31 @@ export default function FocusTimerPage() {
   const [wasInterrupted, setWasInterrupted] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
+  const handleStop = useCallback(() => {
+    if (!isRunning) return;
+    setIsRunning(false);
+    if (timerRef.current) clearInterval(timerRef.current);
+
+    const endTime = new Date();
+    const totalTime = Math.floor(((endTime.getTime() - (startTime?.getTime() ?? 0)) / 1000) / 60);
+    const focusScore = Math.max(0, duration - tabSwitchCount * 5);
+
+    const newSuggestions = techniques
+      .filter((tech) => {
+        if (focusScore >= 20) return tech.level === 'advanced';
+        if (focusScore >= 10) return tech.level === 'intermediate';
+        return tech.level === 'beginner';
+      })
+      .map((tech) => tech.name);
+
+    setSuggestedTechniques(newSuggestions);
+
+    toast.success(`Session completed. Focus Score: ${focusScore}`);
+
+    localStorage.setItem('lastFocusScore', String(focusScore));
+    localStorage.setItem('lastSuggestions', JSON.stringify(newSuggestions));
+  }, [isRunning, startTime, tabSwitchCount, duration]);
+
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.hidden && isRunning) {
@@ -27,14 +52,14 @@ export default function FocusTimerPage() {
 
     document.addEventListener('visibilitychange', handleVisibilityChange);
     return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
-  }, [isRunning]);
+  }, [isRunning, handleStop]);
 
   useEffect(() => {
     if (tabSwitchCount >= 3) {
       toast.error('Too many distractions. Session ended.');
       handleStop();
     }
-  }, [tabSwitchCount]);
+  }, [tabSwitchCount, handleStop]);
 
   useEffect(() => {
     return () => {
@@ -60,31 +85,6 @@ export default function FocusTimerPage() {
         return prev - 1;
       });
     }, 1000);
-  };
-
-  const handleStop = () => {
-    if (!isRunning) return;
-    setIsRunning(false);
-    if (timerRef.current) clearInterval(timerRef.current);
-
-    const endTime = new Date();
-    const totalTime = Math.floor(((endTime.getTime() - (startTime?.getTime() ?? 0)) / 1000) / 60);
-    const focusScore = Math.max(0, duration - tabSwitchCount * 5);
-
-    const newSuggestions = techniques
-      .filter((tech) => {
-        if (focusScore >= 20) return tech.level === 'advanced';
-        if (focusScore >= 10) return tech.level === 'intermediate';
-        return tech.level === 'beginner';
-      })
-      .map((tech) => tech.name);
-
-    setSuggestedTechniques(newSuggestions);
-
-    toast.success(`Session completed. Focus Score: ${focusScore}`);
-
-    localStorage.setItem('lastFocusScore', String(focusScore));
-    localStorage.setItem('lastSuggestions', JSON.stringify(newSuggestions));
   };
 
   const formatTime = (totalSeconds: number) => {
