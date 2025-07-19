@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       tabSwitchCount,
       suggestion
     } = body;
-const session = await prisma.focusSession.create({
+const session = await prisma.focusSession.create
 ({
       data: {
         userId,
