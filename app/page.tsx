@@ -1,26 +1,20 @@
+// page.tsx
 'use client';
 
-import { signIn, signOut, useSession } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import Image from 'next/image';
 import {
-  FaBrain, FaClock, FaBell, FaArrowUp, FaLinkedin,
-  FaBug, FaCodeBranch, FaGithub
+  FaBrain, FaClock, FaBell, FaArrowUp, FaLinkedin, FaGithub
 } from "react-icons/fa";
-import {
-  motion,
-  useMotionValue,
-  useSpring
-} from 'framer-motion';
+import { useMotionValue, useSpring, motion } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
-
-// ... (testimonials and features arrays unchanged)
 
 const testimonials = [
   {
     name: "Sarah Johnson",
     image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?fit=crop&w=150&q=80",
-    message: "Focusift helped me realize when I'm most productive. The suggestions boosted my focus!",
+    message: "Focusift helped me realize when I&apos;m most productive. The suggestions boosted my focus!",
   },
   {
     name: "David Kim",
@@ -44,30 +38,10 @@ const testimonials = [
   },
 ];
 
-const features = [
-  {
-    icon: <FaBrain />,
-    title: "Context-Aware Reminders",
-    description: "Receive smart nudges based on your work rhythm to help you stay on task without being overwhelmed.",
-  },
-  {
-    icon: <FaClock />,
-    title: "Perfect Timing",
-    description: "Focusift learns your peak productivity hours and encourages deep focus exactly when it matters.",
-  },
-  {
-    icon: <FaBell />,
-    title: "Personalized Alerts",
-    description: "No generic notifications—only tailored updates that align with your tasks and goals.",
-  },
-];
-
 const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);
   useEffect(() => {
-    const toggleVisibility = () => {
-      setVisible(window.scrollY > 300);
-    };
+    const toggleVisibility = () => setVisible(window.scrollY > 300);
     window.addEventListener('scroll', toggleVisibility);
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
@@ -97,21 +71,24 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#0A0A23] text-white overflow-x-hidden">
-      {/* Navbar omitted for brevity - same as before */}
-
       <div className="w-full overflow-x-hidden">
         <div className="flex gap-6 animate-scroll px-4 w-max whitespace-nowrap mb-5">
           {testimonials.map((t, i) => (
             <div key={i} className="min-w-[250px] max-w-[200px] bg-[#a7e4e4]/10 backdrop-blur-md border border-white/10 p-4 rounded-xl shadow-md text-white whitespace-normal break-words">
-              <img src={t.image} alt={t.name} className="w-10 h-10 rounded-full mb-3 object-cover" />
+              <Image
+                src={t.image}
+                alt={t.name}
+                width={40}
+                height={40}
+                className="rounded-full mb-3 object-cover"
+                unoptimized
+              />
               <p className="text-sm leading-relaxed mb-3">&quot;{t.message}&quot;</p>
               <h4 className="text-sm font-semibold text-blue-300">— {t.name}</h4>
             </div>
           ))}
         </div>
       </div>
-
-      {/* Everything else is unchanged */}
 
       <footer className="bg-[#0A0A23] text-white text-center py-10">
         <h3 className="text-2xl font-bold mb-4 tracking-wide">Focusift</h3>
