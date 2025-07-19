@@ -155,7 +155,8 @@ export default function Home() {
           {testimonials.map((t, i) => (
             <div key={i} className="min-w-[250px] max-w-[200px] bg-[#a7e4e4]/10 backdrop-blur-md border border-white/10 p-4 rounded-xl shadow-md text-white whitespace-normal break-words">
               <Image src={t.image} alt={t.name} className="w-10 h-10 rounded-full mb-3 object-cover" />
-              <p className="text-sm leading-relaxed mb-3">"{t.message}"</p>
+              <p className="text-sm leading-relaxed mb-3">&quot;{t.message}&quot;</p>
+
               <h4 className="text-sm font-semibold text-blue-300">— {t.name}</h4>
             </div>
           ))}
