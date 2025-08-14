@@ -1,8 +1,8 @@
-import NextAuth from "next-auth";
+import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-import type { AuthOptions } from "next-auth";
 
-export const authOptions: AuthOptions = {
+// Define authOptions locally (don't export from route file)
+const authOptions: AuthOptions = {
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
@@ -21,6 +21,4 @@ export const authOptions: AuthOptions = {
 
 const handler = NextAuth(authOptions);
 
-// Export named HTTP methods for App Router
-export const GET = handler;
-export const POST = handler;
+export { handler as GET, handler as POST };
