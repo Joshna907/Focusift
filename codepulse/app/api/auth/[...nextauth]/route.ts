@@ -1,23 +1,26 @@
-import NextAuth, { NextAuthOptions } from "next-auth";
+import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import type { AuthOptions } from "next-auth";
 
-export const authOptions: NextAuthOptions = { 
-  providers: [ 
-    GoogleProvider({ 
-      clientId: process.env.GOOGLE_CLIENT_ID!, 
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!, 
-    }), 
-  ], 
-  pages: { 
-    signIn: "/login", 
-  }, 
-  callbacks: { 
-    async redirect({ baseUrl }) { 
-      return `${baseUrl}/focus`; 
-    }, 
-  }, 
+export const authOptions: AuthOptions = {
+  providers: [
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    }),
+  ],
+  pages: {
+    signIn: "/login",
+  },
+  callbacks: {
+    async redirect({ baseUrl }) {
+      return `${baseUrl}/focus`;
+    },
+  },
 };
 
 const handler = NextAuth(authOptions);
 
-export { handler as GET, handler as POST };
+// Export named HTTP methods for App Router
+export const GET = handler;
+export const POST = handler;
