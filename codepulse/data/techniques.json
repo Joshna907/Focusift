@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Pomodoro Technique",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD)",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD)",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks)",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 2",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 2",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 2",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 2",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 2",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 2",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 2",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 2",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 2",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 2",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 2",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 2",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 2",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 2",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 2",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 2",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 2",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 2",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 2",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 2",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 3",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 3",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 3",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 3",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 3",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 3",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 3",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 3",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 3",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 3",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 3",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 3",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 3",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 3",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 3",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 3",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 3",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 3",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 3",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 3",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 4",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 4",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 4",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 4",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 4",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 4",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 4",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 4",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 4",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 4",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 4",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 4",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 4",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 4",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 4",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 4",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 4",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 4",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 4",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 4",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 5",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 5",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 5",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 5",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 5",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 5",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 5",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 5",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 5",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 5",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 5",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 5",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 5",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 5",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 5",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 5",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 5",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 5",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 5",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 5",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 6",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 6",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 6",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 6",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 6",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 6",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 6",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 6",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 6",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 6",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 6",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 6",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 6",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 6",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 6",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 6",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 6",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 6",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 6",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 6",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 7",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 7",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 7",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 7",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 7",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 7",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 7",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 7",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 7",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 7",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 7",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 7",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 7",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 7",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 7",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 7",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 7",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 7",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 7",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 7",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 8",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 8",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 8",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 8",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 8",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 8",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 8",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 8",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 8",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 8",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 8",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 8",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 8",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 8",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 8",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 8",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 8",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 8",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 8",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 8",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 9",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 9",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 9",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 9",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 9",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 9",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 9",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 9",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 9",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 9",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 9",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 9",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 9",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 9",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 9",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 9",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 9",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 9",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 9",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 9",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  },
+  {
+    "name": "Pomodoro Technique 10",
+    "category": "short_focus",
+    "description": "Work for 25 minutes, break for 5. After 4 cycles, take a longer break."
+  },
+  {
+    "name": "Flowtime Technique 10",
+    "category": "general",
+    "description": "Work until tired, then rest. Track time naturally without timers."
+  },
+  {
+    "name": "Timeboxing 10",
+    "category": "task_planning",
+    "description": "Allocate fixed time blocks to tasks. Commit to stop once time is up."
+  },
+  {
+    "name": "Eisenhower Matrix 10",
+    "category": "time_management",
+    "description": "Prioritize tasks by urgency and importance."
+  },
+  {
+    "name": "Getting Things Done (GTD) 10",
+    "category": "general",
+    "description": "Capture, clarify, organize, reflect, and engage."
+  },
+  {
+    "name": "2-Minute Rule 10",
+    "category": "general",
+    "description": "If it takes less than 2 minutes, do it immediately."
+  },
+  {
+    "name": "Eat That Frog 10",
+    "category": "task_planning",
+    "description": "Tackle your hardest task first thing in the morning."
+  },
+  {
+    "name": "Don't Break the Chain 10",
+    "category": "time_management",
+    "description": "Mark each day you complete a task on a calendar and build streaks."
+  },
+  {
+    "name": "Zen to Done (ZTD) 10",
+    "category": "general",
+    "description": "Simplified GTD focusing on habits and mindfulness."
+  },
+  {
+    "name": "ABCDE Prioritization 10",
+    "category": "task_planning",
+    "description": "Label tasks A to E by importance and do them in order."
+  },
+  {
+    "name": "SMART Goals 10",
+    "category": "task_planning",
+    "description": "Set Specific, Measurable, Achievable, Relevant, and Time-bound goals."
+  },
+  {
+    "name": "The ONE Thing 10",
+    "category": "task_planning",
+    "description": "Focus on the single most important task."
+  },
+  {
+    "name": "MITs (Most Important Tasks) 10",
+    "category": "task_planning",
+    "description": "List and do your top 3 most important tasks first."
+  },
+  {
+    "name": "Ultradian Rhythms 10",
+    "category": "energy_management",
+    "description": "Work in 90-minute cycles followed by 20-minute breaks."
+  },
+  {
+    "name": "Digital Minimalism 10",
+    "category": "interrupted",
+    "description": "Reduce time spent on digital distractions."
+  },
+  {
+    "name": "Deep Work 10",
+    "category": "interrupted",
+    "description": "Block uninterrupted time for cognitively demanding work."
+  },
+  {
+    "name": "Parkinson\u2019s Law 10",
+    "category": "general",
+    "description": "Work expands to fill the time available. Use tight deadlines."
+  },
+  {
+    "name": "Biological Prime Time 10",
+    "category": "general",
+    "description": "Work during your most energetic hours."
+  },
+  {
+    "name": "Bullet Journaling 10",
+    "category": "time_management",
+    "description": "Combine calendar, task list, and diary into one analog system."
+  },
+  {
+    "name": "Mind Mapping 10",
+    "category": "creativity",
+    "description": "Visual way to brainstorm and organize ideas."
+  }
+]
