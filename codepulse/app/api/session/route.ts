@@ -103,7 +103,7 @@ export async function GET(req: NextRequest) {
     const groupedMonthly: { [key: string]: number } = {};
     const groupedYearly: { [key: string]: number } = {};
 
-    sessions.forEach((session) => {
+    sessions.forEach((session : any) => {
       const start = new Date(session.startTime);
       const end = new Date(session.endTime);
 
@@ -142,7 +142,7 @@ export async function GET(req: NextRequest) {
     const endOfDay = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59, 59);
 
     // Filter today's sessions
-    const todaySessions = sessions.filter((session) => {
+    const todaySessions = sessions.filter((session : any) => {
       const sessionStart = new Date(session.startTime);
       return sessionStart >= startOfDay && sessionStart <= endOfDay;
     });
@@ -155,7 +155,7 @@ export async function GET(req: NextRequest) {
       let totalMinutes = 0;
 
       // Calculate focus time for this hour
-      todaySessions.forEach((session) => {
+      todaySessions.forEach((session: any) => {
         const sessionStart = new Date(session.startTime);
         const sessionEnd = new Date(session.endTime);
         
