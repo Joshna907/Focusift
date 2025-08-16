@@ -1,14 +1,13 @@
 import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
-export const authOptions: AuthOptions = {
+const authOptions: AuthOptions = {
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
-  secret: process.env.NEXTAUTH_SECRET, // 👈 add this line
   pages: {
     signIn: "/login",
   },
@@ -17,6 +16,7 @@ export const authOptions: AuthOptions = {
       return `${baseUrl}/focus`;
     },
   },
+  secret: process.env.NEXTAUTH_SECRET, // ✅ add this line
 };
 
 const handler = NextAuth(authOptions);
