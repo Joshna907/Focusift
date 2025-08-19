@@ -51,17 +51,20 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
     }
 
-    const focusSession = await prisma.focusSession.create({
-      data: {
-        userId: userInDb.id,
-        startTime: new Date(startTime),
-        endTime: new Date(endTime),
-        duration: Math.floor((new Date(endTime).getTime() - new Date(startTime).getTime()) / 1000),
-        wasInterrupted,
-        tabSwitchCount,
-        suggestion,
-      },
-    });
+   const focusSession = await prisma.focusSession.create({
+  data: {
+    userId: userInDb.id,
+    startTime: new Date(startTime),
+    endTime: new Date(endTime),
+    duration: Math.floor(
+      (new Date(endTime).getTime() - new Date(startTime).getTime()) / 1000
+    ),
+    ...(wasInterrupted !== undefined && { wasInterrupted }),
+    ...(tabSwitchCount !== undefined && { tabSwitchCount }),
+    ...(suggestion && { suggestion }),
+  },
+});
+
 
     return NextResponse.json({
       message: 'Session stored successfully',
